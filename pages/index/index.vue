@@ -63,7 +63,7 @@
 		},
 		methods: {
 			tabholder(){
-				console.log('ok')
+				console.log('ok1')
 			}
 		}
 	}

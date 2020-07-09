@@ -201,7 +201,7 @@ var _default = { components: { recommend: _recommend.default }, data: function d
   },
   methods: {
     tabholder: function tabholder() {
-      console.log('ok');
+      console.log('ok1');
     } } };exports.default = _default;
 
 /***/ }),
