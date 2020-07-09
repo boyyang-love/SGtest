@@ -1,0 +1,165 @@
+.container {
+  min-height: 750rpx;
+  background-color: #f6f6f6;
+  margin-top: 24rpx;
+}
+.container .hotel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.container .hotel .hotel-recommed {
+  margin: 15rpx 5rpx;
+  width: 344rpx;
+  height: 363rpx;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 35rpx;
+  overflow: hidden;
+  box-shadow: 0rpx 2rpx 3rpx 0rpx rgba(0, 0, 0, 0.5);
+}
+.container .hotel .hotel-recommed image {
+  width: 342rpx;
+  height: 200rpx;
+}
+.container .hotel .hotel-recommed .hotel-mes {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  text-align: justify;
+}
+.container .hotel .hotel-recommed .hotel-mes .name {
+  width: 100%;
+  font-size: 30rpx;
+}
+.container .hotel .hotel-recommed .hotel-mes .ranking {
+  margin-left: 18rpx;
+  width: 100%;
+  font-size: 25rpx;
+}
+.container .hotel .hotel-recommed .hotel-mes .price {
+  margin-left: 18rpx;
+  width: 100%;
+  font-size: 30rpx;
+}
+.container .hotel .hotel-recommed .hotel-mes .price .newPrice {
+  color: red;
+}
+.container .hotel .hotel-recommed .hotel-mes .price .oldPrice {
+  margin-left: 25rpx;
+  color: gray;
+  text-decoration: line-through;
+}
+.container .recommend {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .recommend view {
+  margin: 30rpx;
+}
+.container .recommend view .icon-remen2 {
+  color: red;
+  font-size: 45rpx;
+  margin-right: 10rpx;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1769777 */
+  src: url('//at.alicdn.com/t/font_1769777_mepc0feltdh.eot');
+  src: url('//at.alicdn.com/t/font_1769777_mepc0feltdh.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_1769777_mepc0feltdh.woff2') format('woff2'), url('//at.alicdn.com/t/font_1769777_mepc0feltdh.woff') format('woff'), url('//at.alicdn.com/t/font_1769777_mepc0feltdh.ttf') format('truetype'), url('//at.alicdn.com/t/font_1769777_mepc0feltdh.svg#iconfont') format('svg');
+}
+
+.active {
+  color: red;
+}
+.container .nav-tabs {
+  width: 100%;
+  margin-top: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.container .nav-tabs .tab-change {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.container .nav-tabs .tab-change text {
+  font-size: 30rpx;
+  color: #333333;
+}
+.container .nav-tabs .tab-change .iconfont {
+  color: #ffc144;
+  font-size: 65rpx;
+}
+.container .banner {
+  height: 420rpx;
+  position: relative;
+}
+.container .banner .search {
+  position: absolute;
+  left: 0;
+  top: 15rpx;
+  width: 100%;
+  height: 68rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.container .banner .search input {
+  width: 691rpx;
+  height: 100%;
+  background-color: #fff1f4;
+  box-sizing: border-box;
+  border-radius: 40rpx;
+  background: rgba(255, 241, 244, 0.6);
+  padding-left: 45rpx;
+}
+.container .banner .search .icon-sousuo2 {
+  position: absolute;
+  right: 50rpx;
+  top: 18rpx;
+}
+.container .banner .swiper {
+  height: 420rpx;
+}
+.container .banner .swiper .swiper-item {
+  width: 100%;
+  height: 420rpx;
+}
+.container .banner .swiper .swiper-item image {
+  width: 100%;
+  height: 420rpx;
+}
+

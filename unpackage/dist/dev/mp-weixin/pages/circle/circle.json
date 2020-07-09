@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "圈子",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "all-post": "/pages/component/allPost/allPost"
+  }
+}

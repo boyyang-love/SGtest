@@ -1,0 +1,190 @@
+page {
+  background-color: #f6f6f6;
+}
+.mine {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: relative;
+}
+.mine .user {
+  width: 100%;
+  height: 382rpx;
+  position: relative;
+}
+.mine .user image {
+  width: 100%;
+  height: 382rpx;
+}
+.mine .user .head {
+  width: 100%;
+  height: 382rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.mine .user .head .headImg {
+  width: 122rpx;
+  height: 122rpx;
+  border: 2px solid white;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.mine .user .head .headImg image {
+  width: 122rpx;
+  height: 122rpx;
+}
+.mine .user .head .nickname {
+  font-size: 30rpx;
+  color: white;
+  margin: 15rpx;
+}
+.mine .order {
+  width: 691rpx;
+  height: 197rpx;
+  background-color: white;
+  position: absolute;
+  bottom: -130rpx;
+  border-radius: 8rpx;
+  box-shadow: 0rpx 1rpx 2rpx 0rpx rgba(0, 0, 0, 0.4);
+}
+.mine .order .myOrder {
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mine .order .myOrder .ord {
+  color: green;
+}
+.mine .order .myOrder .ord .my {
+  color: black;
+}
+.mine .order .myOrder text {
+  font-size: 35rpx;
+  margin: 0rpx 15rpx;
+}
+.mine .order .orderDetail {
+  width: 100%;
+  height: 50%;
+}
+.mine .order .orderDetail .waitingSolve {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mine .order .orderDetail .waitingSolve .waiting {
+  padding: 2rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.mine .card {
+  width: 100%;
+  position: absolute;
+  top: 550rpx;
+  left: 0;
+}
+.mine .card .carBox {
+  width: 100%;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  margin: 25rpx 0rpx;
+}
+.mine .card .carBox .box {
+  background-color: white;
+  width: 100%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mine .card .carBox .box view {
+  margin: 10rpx;
+}
+.mine .card .carBox .box .left {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mine .card .carBox .box .left text {
+  font-size: 65rpx;
+  color: #fff143;
+}
+.mine .card .carBox .box .right {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 10;
+  -webkit-flex: 10;
+          flex: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eeeeee;
+}
+
